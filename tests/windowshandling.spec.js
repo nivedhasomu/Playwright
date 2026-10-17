@@ -9,4 +9,4 @@ const newTab= await promise.all[page.waitForEvent('popup'),page.locator('(//butt
 const newPageText= await newTab.locator('//span[text()="Documentation"]').click();
 
 });
-const=
+const newPage= await page.locator('(//a[@class="analystic"])[1]').click();
